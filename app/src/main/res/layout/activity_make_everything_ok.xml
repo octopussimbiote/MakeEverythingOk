@@ -3,20 +3,34 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical">
-
-    <Button
-        android:id="@+id/makeOkButton"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Сделать всё хорошо"/>
-
+        android:gravity="center">
+        <Button
+            android:id="@+id/makeOkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сделать всё хорошо"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp">
     <TextView
         android:id="@+id/alertText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/alert"
-        android:visibility="invisible"
-        />
+        android:visibility="invisible" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp">
+
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
@@ -25,6 +39,9 @@
         android:indeterminate="false"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:max="100"
-        android:progress="20"/>
+        android:progress="50"
+        />
+    </LinearLayout>
+
 
 </LinearLayout>

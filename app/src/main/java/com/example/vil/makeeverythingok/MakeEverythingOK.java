@@ -14,6 +14,11 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
+import javax.xml.datatype.Duration;
+
 public class MakeEverythingOK extends AppCompatActivity {
 
     private Button mMakeOKButton;
@@ -45,8 +50,13 @@ public class MakeEverythingOK extends AppCompatActivity {
                 animator.setDuration(DURATION);
                 animator.start();
 
-                public void timer(final int time){
-                }
+                Timer timer = new Timer();
+                timer.schedule(new TimerTask() {
+                    @Override
+                    public void run() {
+                        mAlert.setText(R.string.alertDone);
+                    }
+                }, DURATION);
 
                 }
         });
