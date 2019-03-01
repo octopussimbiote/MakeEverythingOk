@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Make Everything OK</string>
+    <string name="alert">Подождите, всё делается хорошо...</string>
+    <string name="alertDone">Всё хорошо!</string>
+</resources>
