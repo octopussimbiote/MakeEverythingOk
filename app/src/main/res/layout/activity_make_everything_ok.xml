@@ -22,8 +22,9 @@
         android:id="@+id/alertText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/alert"
-        android:visibility="invisible" />
+        android:text="@string/press"
+        android:visibility="visible"
+        android:gravity="center"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
