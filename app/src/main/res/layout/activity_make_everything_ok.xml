@@ -2,22 +2,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center">
         <Button
+            android:padding="20dp"
+            android:elevation="6dp"
+            android:stateListAnimator="@null"
+            android:translationZ="4dp"
+
+            android:elegantTextHeight="true"
             android:id="@+id/makeOkButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Сделать всё хорошо"/>
+            android:text="Сделать всё хорошо"
+            android:background="@drawable/round"
+            />
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="20dp">
+        android:padding="30dp">
     <TextView
         android:id="@+id/alertText"
         android:layout_width="wrap_content"
