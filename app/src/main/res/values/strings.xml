@@ -2,5 +2,5 @@
     <string name="app_name">Давайте сделаем Мир лучше</string>
     <string name="press">Нажмите, чтобы всё стало лучше.</string>
     <string name="alert">Подождите, всё делается хорошо...</string>
-    <string name="alertDone">Всё прекрасно! \n Если лучше не стало, настройте ваше восприятие окружающей реальности.</string>
+    <string name="alertDone">Всё прекрасно! \n Если лучше не стало, настройте ваше восприятие \n окружающей реальности.</string>
 </resources>
