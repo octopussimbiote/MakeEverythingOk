@@ -5,7 +5,7 @@
     android:insetRight="4dp"
     android:insetTop="6dp">
     <ripple android:color="?attr/colorControlHighlight">
-        <item>
+        <item android:bottom="4dp">
             <shape android:shape="rectangle"
                 android:tint="#76CFDC">
                 <corners android:radius="10dp"/>

@@ -2,11 +2,9 @@ package com.example.vil.makeeverythingok;
 
 import android.animation.ObjectAnimator;
 import android.animation.TimeInterpolator;
-import android.nfc.Tag;
-import android.os.Handler;
-import android.os.SystemClock;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
@@ -14,12 +12,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
 
-import java.util.Timer;
-import java.util.TimerTask;
-
-import javax.xml.datatype.Duration;
 
 public class MakeEverythingOK extends AppCompatActivity {
 
