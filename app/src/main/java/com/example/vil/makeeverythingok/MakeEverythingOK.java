@@ -28,7 +28,7 @@ public class MakeEverythingOK extends AppCompatActivity {
     int progress = 0;
 
     public void rewright(){
-        mAlert.setText(R.string.alertDone);
+        mAlert.setText(R.string.alertDonez);
     }
 
     @Override

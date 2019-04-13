@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
+<inset xmlns:android="http://schemas.android.com/apk/res/android">
+<ripple android:color="?attr/colorControlHighlight">
 
     <item>
         <shape android:shape="rectangle">
         <size android:height="43dp" android:width="363dp"/>
-            <solid android:color="#727475"/>
+            <solid android:color="#242829"/>
             <corners android:radius="30dp"/>
         </shape>
     </item>
@@ -19,9 +19,9 @@
             <size android:height="40dp" android:width="360dp"/>
             <corners android:radius="20dp" />
             <gradient
-                android:startColor="#03221D"
-                android:centerColor="#03221D"
-                android:endColor="#41A4B3"
+                android:startColor="#499FAC"
+                android:centerColor="#83ACAF"
+                android:endColor="#499FAC"
                 />
         </shape>
     </item>
@@ -31,6 +31,7 @@
         android:right="2dp"
         android:top="0dp"
         android:bottom="3dp">
+        <clip>
         <shape>
             <size android:height="40dp" android:width="360dp"/>
             <corners android:radius="20dp" />
@@ -40,8 +41,8 @@
                 android:endColor="#76CFDC"
                 />
         </shape>
+        </clip>
     </item>
 
-
-
-</layer-list>
+</ripple>
+</inset>
