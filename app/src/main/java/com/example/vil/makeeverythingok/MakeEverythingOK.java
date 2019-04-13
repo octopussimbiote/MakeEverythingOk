@@ -22,7 +22,7 @@ public class MakeEverythingOK extends AppCompatActivity {
 
     private static final TimeInterpolator ANIMATION_INTER = new DecelerateInterpolator(2);
     private static final int MAX_LEVEL = 100;
-    private static final long DURATION = 7000;
+    private static final long DURATION = 9000;
     private static String TAG = "Tag";
 
     int progress = 0;
@@ -48,9 +48,7 @@ public class MakeEverythingOK extends AppCompatActivity {
             public void onClick(View v) {
                 ObjectAnimator animator = ObjectAnimator.ofInt(mProgressBar, "Progress", 0, MAX_LEVEL);
 
-                //mAlert.setVisibility(View.VISIBLE);
                 mAlert.setText(R.string.alert);
-                mProgressBar.setVisibility(View.VISIBLE);
                 animator.setInterpolator(ANIMATION_INTER);
                 animator.setDuration(DURATION);
                 animator.start();
@@ -61,20 +59,8 @@ public class MakeEverythingOK extends AppCompatActivity {
                     @Override
                     public void run() {
                         rewright();
-                        mProgressBar.setVisibility(View.INVISIBLE);
-                    }
-                }, 5000);
-
-                /*
-                Timer timer = new Timer();
-                timer.schedule(new TimerTask() {
-                    @Override
-                    public void run() {
-                        rewright();
-                        mProgressBar.setVisibility(View.INVISIBLE);
                     }
                 }, DURATION);
-                */
             }
         });
     }

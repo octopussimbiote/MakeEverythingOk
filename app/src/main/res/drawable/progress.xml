@@ -4,42 +4,42 @@
 
     <item>
         <shape android:shape="rectangle">
-            <size android:height="50dp" android:width="365dp"/>
-            <solid android:color="#D80C0C0C"/>
-            <corners android:radius="20dp"/>
+        <size android:height="43dp" android:width="363dp"/>
+            <solid android:color="#727475"/>
+            <corners android:radius="30dp"/>
         </shape>
     </item>
 
-
-
-    <item android:id="@android:id/background" android:gravity="center">
+    <item
+        android:left="0dp"
+        android:right="2dp"
+        android:top="0dp"
+        android:bottom="3dp">
         <shape>
-            <size android:height="40dp" android:width="365dp"/>
-
+            <size android:height="40dp" android:width="360dp"/>
             <corners android:radius="20dp" />
             <gradient
-                android:startColor="#41A1AE"
-                android:centerColor="#41A1AE"
-                android:endColor="#27828F"
+                android:startColor="#03221D"
+                android:centerColor="#03221D"
+                android:endColor="#41A4B3"
                 />
         </shape>
     </item>
 
-
-
-    <item android:id="@android:id/progress" android:gravity="center">
-        <clip>
-            <shape>
-                <size android:height="30dp" android:width="350dp"/>
-
-                <corners android:radius="10dp" />
-                <gradient
-                    android:startColor="#5F73C4"
-                    android:centerColor="#5F73C4"
-                    android:endColor="#B0BEF5"
-                    />
-            </shape>
-        </clip>
+    <item
+        android:left="0dp"
+        android:right="2dp"
+        android:top="0dp"
+        android:bottom="3dp">
+        <shape>
+            <size android:height="40dp" android:width="360dp"/>
+            <corners android:radius="20dp" />
+            <gradient
+                android:startColor="#76CFDC"
+                android:centerColor="#41A1AE"
+                android:endColor="#76CFDC"
+                />
+        </shape>
     </item>
 
 

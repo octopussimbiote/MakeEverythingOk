@@ -4,6 +4,7 @@
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/back"
         >
 
         <Button
@@ -22,9 +23,10 @@
             android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.373"
+            app:layout_constraintVertical_bias="0.316"
             tools:ignore="MissingConstraints" />
 
 
@@ -32,26 +34,26 @@
             android:id="@+id/progressBar"
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
 
-            android:layout_width="fill_parent"
-            android:layout_height="50dp"
+            android:layout_width="332dp"
+            android:layout_height="48dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="85dp"
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="8dp"
 
-            android:progressDrawable="@drawable/progress"
-
             android:indeterminate="false"
+
             android:max="100"
             android:progress="1"
-            android:visibility="visible"
+            android:progressDrawable="@drawable/progress"
 
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/makeOkButton"
             app:layout_constraintVertical_bias="0.0"
-            tools:ignore="MissingConstraints" />
+            />
 
         <TextView
             android:id="@+id/alertText"
@@ -62,13 +64,15 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:gravity="center"
-            android:textSize="20dp"
             android:text="@string/press"
+            android:textColor="#03221D"
+            android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.774"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar"
+            app:layout_constraintVertical_bias="0.396"
             tools:ignore="MissingConstraints" />
     </android.support.constraint.ConstraintLayout>
 
